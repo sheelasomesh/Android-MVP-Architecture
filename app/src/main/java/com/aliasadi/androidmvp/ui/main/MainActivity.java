@@ -22,6 +22,8 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActivity<MainPresenter> implements MainView, MovieAdapter.MovieListener {
 
+
+
     private MovieAdapter movieAdapter;
      @BindView(R.id.recycler_view) RecyclerView recyclerView;
 
