@@ -18,13 +18,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
- * Created by Ali Asadi on 12/03/2018.
- */
+  */
 
 public class MainActivity extends BaseActivity<MainPresenter> implements MainView, MovieAdapter.MovieListener {
 
     private MovieAdapter movieAdapter;
-
+            int i;
     @BindView(R.id.recycler_view) RecyclerView recyclerView;
 
     @Override
